@@ -1,0 +1,14 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-lsp",
+      "filetypes": [
+        "terraform"
+      ],
+      "initializationOptions": {}
+    }
+  },
+  "yaml.format.enable": true
+}
